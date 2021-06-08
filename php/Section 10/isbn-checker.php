@@ -27,6 +27,7 @@
 // Define Variables
 $input = $_POST['input'];
 
+
 if(isset($_POST['submit'], $input)){
     
     $array = str_split($input);
